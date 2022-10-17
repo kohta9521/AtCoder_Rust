@@ -1,0 +1,5 @@
+import sys
+
+x = int(input())
+print(x * x)
+
