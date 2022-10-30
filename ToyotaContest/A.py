@@ -1,4 +1,6 @@
+from http.client import OK
 import sys
+import random
 
 #最初に渡される初期値を読み込む
 # ストリング型の数字とイント型の数字の紐付け 紐付けはfor文を使用して組み合わせ
@@ -30,5 +32,103 @@ elif num == 2:
     w_empty.append(x[num])
 else:
     p_empty.append(x[num])
+
+
+#仮に左上から１〜１００までの数字を場所に振ってその場所にランダム関数を使用して入れていくとする
+#その場合入った場所を100通り確定させる必要がある
+#ランダム関数を使用して各マスにどの番号が入るのか確定させる作業を行う
+random.randint(1,100)
+num = 0
+while num <= 100:
+    num += 1
+
+add = 0
+while add <= 100:
+    add += 1
+random.choice(add)
+
+#どこにも帰属しない繰り返し構文
+sample = 0
+while sample <= 100:
+    sample +=1
+
+#このデータにどこのますにランダムで何味のキャンディーが入るか決定
+data = {num[sample]: add[sample]}
+
+#各マスを確定 各行ごとの最大値を求める
+if num[sample] <= 10:
+    if x[num] = 3:
+        add()
+    elif x[num] = 2:
+        sec()
+    else:
+        sec()
+if num[sample] <= 20:
+    if x[num] = 3:
+        add()
+    elif x[num] = 2:
+        sec()
+    else:
+        sec()
+if num[sample] <= 10:
+    if x[num] = 3:
+        add()
+    elif x[num] = 2:
+        sec()
+    else:
+        sec()
+if num[sample] <= 10:
+    if x[num] = 3:
+        add()
+    elif x[num] = 2:
+        sec()
+    else:
+        sec()
+if num[sample] <= 10:
+    if x[num] = 3:
+        add()
+    elif x[num] = 2:
+        sec()
+    else:
+        sec()
+if num[sample] <= 10:
+    if x[num] = 3:
+        add()
+    elif x[num] = 2:
+        sec()
+    else:
+        sec()
+if num[sample] <= 10:
+    if x[num] = 3:
+        add()
+    elif x[num] = 2:
+        sec()
+    else:
+        sec()
+if num[sample] <= 10:
+    if x[num] = 3:
+        add()
+    elif x[num] = 2:
+        sec()
+    else:
+        sec()
+if num[sample] <= 10:
+    if x[num] = 3:
+        add()
+    elif x[num] = 2:
+        sec()
+    else:
+        sec()
+if num[sample] <= 10:
+    if x[num] = 3:
+        add()
+    elif x[num] = 2:
+        sec()
+    else:
+        sec()
+
+    
+
+
 
 
