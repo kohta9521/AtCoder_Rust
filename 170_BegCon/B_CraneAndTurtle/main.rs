@@ -6,6 +6,6 @@ fn main() {
     if y % 2 == 0 && x * 2 <= y && y <= x * 4 {
         println!("Yes");
     } else {
-        println!("No");
+        prin tln!("No");
     }
 }
